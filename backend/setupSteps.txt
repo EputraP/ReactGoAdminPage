@@ -1,0 +1,11 @@
+- install go mod 
+(go mod init <module_name>)
+- install go daemon for better running go (if any change in the code, automaticly re run the go server) 
+(go get github.com/githubnemo/CompileDaemon)
+- install gin web framework, gin likes express in nodeJS
+(go get -u github.com/gin-gonic/gin)
+- install GORM for ORM (Object Relational Mapping, create query code using OO programming language) 
+(go get -u gorm.io/gorm)
+(go get -u gorm.io/driver/postgres) if using postgres
+- run compile daemon, inside command please look to you go mod file
+(CompileDaemon -command="./GoCRUD")
