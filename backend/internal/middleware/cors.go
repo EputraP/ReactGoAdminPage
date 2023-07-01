@@ -28,3 +28,5 @@ func CORS() gin.HandlerFunc {
 //					- Authorization			= 	The HTTP Authorization request header can be used to provide credentials that authenticate a user agent with a server, allowing access to a protected resource.
 // 					- OtpToken				=	OtpToken
 //					- X-XSRF-TOKEN			=
+// allow credential = The Access-Control-Allow-Credentials response header tells browsers whether to expose the response to the frontend JavaScript code when the request's credentials mode (Request.credentials) is include.
+// max age		 = The Age header contains the time in seconds the object was in a proxy cache
